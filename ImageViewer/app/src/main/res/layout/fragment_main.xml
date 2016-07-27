@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.guette.imageviewer.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/tableLayout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ziggy Album"
+                android:typeface="monospace"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="50dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/textView" />
+    </TableLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageView1"
+                android:src="@drawable/chio"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageView2"
+                android:layout_below="@+id/imageView1"
+                android:src="@drawable/chien1"
+                android:layout_alignParentStart="true"
+                android:layout_alignEnd="@+id/imageView1"
+                android:layout_marginTop="10dp"
+                android:clickable="true" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageView3"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/chien3"
+                android:layout_below="@+id/imageView2"
+                android:layout_alignEnd="@+id/imageView2"
+                android:layout_alignParentStart="true"
+                android:clickable="true" />
+
+        </TableLayout>
+
+        </ScrollView>
+
+</RelativeLayout>
