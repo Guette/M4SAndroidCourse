@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FireBaseStudent</string>
+    <string name="action_settings">Settings</string>
+    <string name="my_id">What is your id ?</string>
+    <string name="my_name">What is your first name ?</string>
+    <string name="register">Please enter your information to register</string>
+    <string name="submit">SUBMIT</string>
+</resources>

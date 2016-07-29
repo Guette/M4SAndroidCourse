@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "436988644872",
+    "firebase_url": "https://fir-student-35d70.firebaseio.com",
+    "project_id": "fir-student-35d70",
+    "storage_bucket": "fir-student-35d70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436988644872:android:5ae506685f3671f8",
+        "android_client_info": {
+          "package_name": "com.guette.firebasestudent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436988644872-fs81uf5qhb4di9gad9s73lutmfviudkb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeQ-tICA9fSvYBc3VWRs20qiTWZ9BSQto"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
